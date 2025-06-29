@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #f0fdf4);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tracker {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-size: 48px;
+  color: #16a34a;
+  margin: 20px 0;
+}
+
+.message {
+  font-size: 18px;
+  color: #4b5563;
+  margin-bottom: 20px;
+  min-height: 24px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.good {
+  background-color: #34d399;
+  color: white;
+}
+
+.bad {
+  background-color: #f87171;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.reset {
+  background-color: #93c5fd;
+  color: #1e3a8a;
+}
